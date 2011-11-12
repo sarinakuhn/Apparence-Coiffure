@@ -1,0 +1,47 @@
+.thumbnails li {
+		width: 90px;
+		height: 90px;
+	}
+
+	#middle_container {
+		height: 510px;
+	}
+
+	#scroller_container {
+		margin-top: 20px;
+		margin-bottom: 10px;
+		width: 706px;	
+	}
+
+	#image_scroller {
+		margin: 0 15px 0 15px;
+		width: 636px;
+	}
+	
+	#thumbnails_container {
+		width: 1484px;
+	}
+	
+	#scroller_container,
+	#image_scroller,
+	#thumbnails_container {
+		height: 106px;
+	}
+	
+	#folders_container {
+		;
+	}		
+	
+	.folders {
+		width: 0px;
+	}
+	
+	.folders li {
+		width: 106px;
+		height: 106px;
+	}
+	
+	.caption,
+	.description {
+		width: 636px;
+	}

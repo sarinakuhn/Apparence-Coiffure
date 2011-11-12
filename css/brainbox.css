@@ -1,0 +1,35 @@
+@charset "UTF-8";
+/*
+Theme Name:              Brainbox - High Performance Lightbox
+Theme Author:            Andreas Hecht - http://www.the-netbrain.de
+Last Change:             28.02. 2010
+*/
+@media screen, projection
+{
+#lightbox{ position: absolute; top: 40px; left: 0; width: 100%; z-index: 100; text-align: center; line-height: 0; }
+#lightbox a img{ border: none; }
+#lightbox img { border: 2px #fff solid; }
+#outerImageContainer{ position: relative; background-color: #fff; width: 250px; height: 250px; margin: 0 auto; }
+#imageContainer{ padding: 0;}
+#loading{ position: absolute; top: 40%; left: 0%; height: 25%; width: 100%; text-align: center; line-height: 0; }
+#hoverNav{ position: absolute; top: 100px; left: 0; height: 100%; width: 100%; z-index: 10; }
+#imageContainer>#hoverNav{ left: 0;}
+#hoverNav a{ outline: none;}
+#prevLink, #nextLink { width : 49%; height : 100%; background : transparent url(../images/blank.gif) no-repeat; display : block; }
+#prevLink { left : 0; float : left; }
+#nextLink { right : 0; float : right; }
+#prevLink:hover, #prevLink:visited:hover { background: url(../images/prev.png) left 15% no-repeat; }
+#nextLink:hover, #nextLink:visited:hover { background: url(../images/next.png) right 15% no-repeat; }
+#imageDataContainer{ font: 11px Verdana, Helvetica, sans-serif; color: #fff; background: #3e3939; margin: 0 auto;
+line-height: 1.4em; padding-top: 5px; border: 1px solid #ccc; position: relative; top: 10px;
+-moz-border-radius: 8px; -webkit-border-radius: 8px;}
+#imageData{ padding:0 10px; }
+#imageData #imageDetails{ width: 70%; float: left; text-align: left; }
+#imageData #caption{ font-weight: bold;}
+#imageData #numberDisplay{ display: block; clear: left; padding-bottom: 1.0em;}
+#imageData #bottomNavClose{ width: 67px; float: right;  padding-bottom: 0.7em;}
+#overlay{ position: absolute; top: 0; left: 0; z-index: 90; width: 100%; height: 500px; background-color: #000; }
+.clearfix:after { content: "."; display: block; height: 0; clear: both; visibility: hidden; }
+* html>body .clearfix { display: inline-block; width: 100%; }
+* html .clearfix { height: 1%;}
+}

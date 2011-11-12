@@ -1,0 +1,22 @@
+div#navi ul {
+	list-style: none;	
+}
+
+div#navi ul li a:link, div#navi ul li a:visited, div#navi ul li a:active, div#navi ul li a:hover {
+	background-color: #000000;
+	background-image: url(../images/layout/navi_bg.jpg);
+	background-repeat: no-repeat;
+	font-size: 14px;
+	display: block;
+	padding: 6px 15px;
+	height: 18px;
+	width: 170px;
+	text-decoration: none;
+	border: 0 none; 
+	border-top: 1px dotted #262626;; 
+}
+
+div#navi ul li a:active, div#navi ul li a:hover, div#navi ul li a#active {
+	background-color: #333333;
+	background-image: url(../images/layout/navi_bg_hover.jpg);
+}

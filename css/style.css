@@ -1,0 +1,160 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	border: 0;
+}
+
+html {
+	overflow-y: scroll;
+}
+
+body {
+	background-color: #000000;
+	color: #ffffff;
+}
+
+a:link, a:visited, a:active, a:hover {
+	color: #ffffff;
+}
+
+div#container {
+	margin: 40px auto;
+	width: 940px;
+}
+
+div#navi {
+	float: left;
+	width: 200px;
+}
+
+div#content_home, div#content {
+	margin-left: 240px;
+	padding-top: 100px;
+	width: 700px;
+}
+
+div#content_home img#fotos_home {
+	position: relative;
+	left: 350px;
+	top: -150px;
+}
+
+div#content {
+	padding-top: 0px;
+}
+
+div#content a:link, div#content a:visited, div#content a:active, div#content a:hover {
+	text-decoration: none;
+	font-weight: bold;
+}
+
+div#content a:active, div#content a:hover {
+	text-decoration: underline;
+}
+
+h1 {
+	font-size: 14px;
+	padding: 6px 0px;
+	border: 0 none;
+	border-bottom: 1px dotted #262626;	
+	margin: 20px 0px;
+}
+
+h2 {
+	clear: both;
+	margin: 20px 0px;
+}
+
+div#content ul {
+	margin-left: 16px;
+}
+
+img {
+	border: 0px;
+}
+
+img.image_galerie {
+	margin-left: 20px;
+	margin-bottom: 20px;
+	float: left;
+}
+
+img.first_col {
+	margin-left: 0px;
+}
+
+div.image_galerie {
+	width: 160px;
+	margin-left: 20px;
+	margin-bottom: 20px;
+	float: left;
+	text-align: center;
+}
+
+div.first_col {
+	margin-left: 0px;
+}
+
+div#impressum_col1, div#impressum_col2 {
+	width: 300px;
+	float: left;
+	margin-right: 20px;
+}
+
+p {
+	margin-bottom: 20px;
+}
+
+#content p {
+	clear: both;
+}
+
+
+div#footer {
+	margin-left: 240px;
+	width: 700px;
+	text-align: center;
+	clear: both;
+}
+
+hr {
+	border: 0 none;
+	border-top: 1px dotted #262626;
+	margin: 20px 0px 20px 0px;
+}
+
+div#footer img#footer_links {
+	float: left;
+}
+
+div#footer div#footer_contact {
+	width: 210px;
+	margin: 0 auto;
+}
+
+div#footer img#footer_rechts {
+	float: right;
+}
+
+div#footer p#footer_copyright {
+	float: left;
+}
+
+div#footer p#footer_impressum {
+	float: right;
+}
+
+div#footer p#footer_copyright, div#footer p#footer_impressum {
+	font-size: 9px;
+}
+
+div#footer p#footer_impressum a:link, div#footer p#footer_impressum a:visited, div#footer p#footer_impressum a:active, div#footer p#footer_impressum a:hover {
+	font-size: 9px;
+	text-decoration: none;
+}
+
+div#footer p#footer_impressum a:active, div#footer p#footer_impressum a:hover {
+	text-decoration: underline;
+}

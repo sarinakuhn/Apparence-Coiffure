@@ -1,0 +1,90 @@
+body {
+	background-color: #000000;
+	color: #bbbbaa;
+}
+
+a:link,
+a:visited {
+	color: #606060;
+}
+
+a:active,
+a:hover {
+	color: #919191;
+}
+	
+#folders_container,
+#bottom_container,
+#top_container {
+	border-width: 1px;	
+}
+	
+#right_arrow,
+#left_arrow,
+#right_fast_arrow,
+#left_fast_arrow {
+	height: 40px;
+	width: 20px;
+}
+
+#right_fast_arrow,
+#left_fast_arrow {
+	margin: 0 20px;
+}
+
+#bottom_container {
+	margin-top: 30px;
+}
+	
+#main_image .loader,
+#main_image img {
+	border: solid 3px #111111;
+}
+	
+#extras {
+	border: solid 1px #111111;
+	margin: 10px auto;		
+	padding: 5px;
+}
+
+#extras ul li {
+	border-left-color: #bbbbaa;
+}
+
+#bottom_container {
+	border-top-color: #333333;	
+}
+
+#folders_container,
+#top_container {
+	border-bottom-color: #333333;
+}
+
+.description {
+	color: #888888;
+}
+
+.caption {
+	color: #888888;
+}
+
+.thumbnails li {
+	margin: 0 10px 10px 0;	
+	border: double 3px #111111;
+	background-color: #000000;
+}
+
+.thumbnails li.active {
+  border: double 3px #111111;
+}
+
+.folders li a {
+	background-color: #000000;
+	border-style: double;
+	border-width: 3px;
+	border-color: #111111;
+	margin-right: 10px;				
+	height: 90px; 
+	width: 90px;
+}
+
